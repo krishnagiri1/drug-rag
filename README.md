@@ -174,6 +174,8 @@ python -m drug_rag serve                                      # http://127.0.0.1
 
 ## Docker
 
+![The API running in Docker and answering a question with cited FDA label excerpts](docs/images/docker-api.png)
+
 See [docs/docker.md](docs/docker.md). The image bundles the code, both ONNX models, and the prebuilt index;
 the container can use the Ollama model running on the host, so `/ask` works fully offline and free:
 
