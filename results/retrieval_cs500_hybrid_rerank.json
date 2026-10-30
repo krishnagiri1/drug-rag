@@ -1,0 +1,1100 @@
+{
+ "mode": "hybrid_rerank",
+ "chunk_size": 500,
+ "n_chunks": 112211,
+ "n": 152,
+ "latency_ms": 1079.1476072368632,
+ "recall@1": 0.6710526315789473,
+ "recall@3": 0.9013157894736842,
+ "recall@5": 0.9407894736842105,
+ "recall@10": 0.9605263157894737,
+ "mrr@10": 0.7841191520467836,
+ "drug_recall@5": 0.9736842105263158,
+ "strict_recall@5": 0.9210526315789473,
+ "by_kind": {
+  "generated": {
+   "recall@1": 0.6176470588235294,
+   "recall@3": 0.8921568627450981,
+   "recall@5": 0.9509803921568627,
+   "recall@10": 0.9607843137254902,
+   "mrr@10": 0.7507352941176471,
+   "drug_recall@5": 0.9705882352941176,
+   "strict_recall@5": 0.9215686274509803
+  },
+  "template": {
+   "recall@1": 0.78,
+   "recall@3": 0.92,
+   "recall@5": 0.92,
+   "recall@10": 0.96,
+   "mrr@10": 0.8522222222222223,
+   "drug_recall@5": 0.98,
+   "strict_recall@5": 0.92
+  }
+ },
+ "per_question": [
+  {
+   "qid": "t0000",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0001",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0002",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0003",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0004",
+   "kind": "template",
+   "rank": 9,
+   "strict_rank": 9,
+   "drug_rank": 4
+  },
+  {
+   "qid": "t0005",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0006",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0007",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0008",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0009",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0010",
+   "kind": "template",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 2
+  },
+  {
+   "qid": "t0011",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0012",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0013",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0014",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0015",
+   "kind": "template",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 2
+  },
+  {
+   "qid": "t0016",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0017",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0018",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0019",
+   "kind": "template",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 2
+  },
+  {
+   "qid": "t0020",
+   "kind": "template",
+   "rank": null,
+   "strict_rank": null,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0021",
+   "kind": "template",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 2
+  },
+  {
+   "qid": "t0022",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0023",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0024",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0025",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0026",
+   "kind": "template",
+   "rank": null,
+   "strict_rank": null,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0027",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0028",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0029",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0030",
+   "kind": "template",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 2
+  },
+  {
+   "qid": "t0031",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0032",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0033",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0034",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0035",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0036",
+   "kind": "template",
+   "rank": 6,
+   "strict_rank": 6,
+   "drug_rank": 6
+  },
+  {
+   "qid": "t0037",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0038",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0039",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0040",
+   "kind": "template",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 2
+  },
+  {
+   "qid": "t0041",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0042",
+   "kind": "template",
+   "rank": 3,
+   "strict_rank": 3,
+   "drug_rank": 3
+  },
+  {
+   "qid": "t0043",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0044",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0045",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0046",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0047",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0048",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "t0049",
+   "kind": "template",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0000",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0001",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0002",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0003",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0004",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0005",
+   "kind": "generated",
+   "rank": 5,
+   "strict_rank": 5,
+   "drug_rank": 2
+  },
+  {
+   "qid": "g0007",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0008",
+   "kind": "generated",
+   "rank": 4,
+   "strict_rank": 4,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0009",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0010",
+   "kind": "generated",
+   "rank": 4,
+   "strict_rank": 4,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0011",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0012",
+   "kind": "generated",
+   "rank": 3,
+   "strict_rank": 3,
+   "drug_rank": 3
+  },
+  {
+   "qid": "g0014",
+   "kind": "generated",
+   "rank": 3,
+   "strict_rank": 3,
+   "drug_rank": 3
+  },
+  {
+   "qid": "g0016",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0017",
+   "kind": "generated",
+   "rank": 3,
+   "strict_rank": 3,
+   "drug_rank": 2
+  },
+  {
+   "qid": "g0018",
+   "kind": "generated",
+   "rank": 4,
+   "strict_rank": 6,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0019",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0021",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0022",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 2
+  },
+  {
+   "qid": "g0023",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0024",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0025",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0026",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0027",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0028",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0029",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0030",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0031",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0032",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0033",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0034",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0036",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0037",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0038",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0040",
+   "kind": "generated",
+   "rank": null,
+   "strict_rank": null,
+   "drug_rank": 6
+  },
+  {
+   "qid": "g0041",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0042",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0043",
+   "kind": "generated",
+   "rank": 3,
+   "strict_rank": 3,
+   "drug_rank": 3
+  },
+  {
+   "qid": "g0044",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0045",
+   "kind": "generated",
+   "rank": 3,
+   "strict_rank": 3,
+   "drug_rank": 3
+  },
+  {
+   "qid": "g0046",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 2
+  },
+  {
+   "qid": "g0047",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0048",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0050",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0051",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0052",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0054",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0055",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 2
+  },
+  {
+   "qid": "g0056",
+   "kind": "generated",
+   "rank": 3,
+   "strict_rank": 3,
+   "drug_rank": 3
+  },
+  {
+   "qid": "g0057",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0058",
+   "kind": "generated",
+   "rank": 4,
+   "strict_rank": 6,
+   "drug_rank": 4
+  },
+  {
+   "qid": "g0059",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0060",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0061",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 2
+  },
+  {
+   "qid": "g0062",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0064",
+   "kind": "generated",
+   "rank": 3,
+   "strict_rank": 3,
+   "drug_rank": 3
+  },
+  {
+   "qid": "g0065",
+   "kind": "generated",
+   "rank": 3,
+   "strict_rank": 3,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0066",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0067",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0068",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0069",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0070",
+   "kind": "generated",
+   "rank": null,
+   "strict_rank": null,
+   "drug_rank": 3
+  },
+  {
+   "qid": "g0071",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0072",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0073",
+   "kind": "generated",
+   "rank": 4,
+   "strict_rank": 4,
+   "drug_rank": 2
+  },
+  {
+   "qid": "g0074",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0075",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0076",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0077",
+   "kind": "generated",
+   "rank": null,
+   "strict_rank": null,
+   "drug_rank": 2
+  },
+  {
+   "qid": "g0078",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 5,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0079",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 3,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0081",
+   "kind": "generated",
+   "rank": 8,
+   "strict_rank": 8,
+   "drug_rank": 6
+  },
+  {
+   "qid": "g0082",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0085",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0087",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0089",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0090",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0091",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0092",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0093",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0094",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0095",
+   "kind": "generated",
+   "rank": 3,
+   "strict_rank": 3,
+   "drug_rank": 3
+  },
+  {
+   "qid": "g0096",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0097",
+   "kind": "generated",
+   "rank": 3,
+   "strict_rank": 10,
+   "drug_rank": 2
+  },
+  {
+   "qid": "g0099",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0100",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0101",
+   "kind": "generated",
+   "rank": null,
+   "strict_rank": null,
+   "drug_rank": null
+  },
+  {
+   "qid": "g0102",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0103",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0106",
+   "kind": "generated",
+   "rank": 3,
+   "strict_rank": 3,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0107",
+   "kind": "generated",
+   "rank": 3,
+   "strict_rank": 3,
+   "drug_rank": 3
+  },
+  {
+   "qid": "g0109",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0110",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0111",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 2
+  },
+  {
+   "qid": "g0112",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0113",
+   "kind": "generated",
+   "rank": 2,
+   "strict_rank": 2,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0114",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0115",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0116",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0117",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0118",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  },
+  {
+   "qid": "g0119",
+   "kind": "generated",
+   "rank": 1,
+   "strict_rank": 1,
+   "drug_rank": 1
+  }
+ ]
+}

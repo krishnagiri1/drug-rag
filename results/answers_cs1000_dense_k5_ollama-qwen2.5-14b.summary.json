@@ -1,0 +1,21 @@
+{
+  "chunk_size": 1000,
+  "mode": "dense",
+  "k": 5,
+  "generator": "ollama:qwen2.5:14b",
+  "judge": "ollama:qwen2.5:14b",
+  "summary": {
+    "n": 99,
+    "faithfulness_mean": 0.967391304347826,
+    "claims_supported": 0.963963963963964,
+    "fully_faithful_rate": 0.9565217391304348,
+    "correctness_mean": 0.8181818181818182,
+    "correct_rate": 0.7474747474747475,
+    "refusal_rate": 0.07070707070707072,
+    "citation_rate": 1.0,
+    "invalid_citation_rate": 0.0,
+    "gold_retrieved_rate": 0.8787878787878788,
+    "median_retrieval_ms": 39.9,
+    "median_generation_ms": 3724.7
+  }
+}

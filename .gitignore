@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+.venv/
+venv/
+.env
+
+# Indexes are rebuilt with `python -m drug_rag index` (tens of MB, regenerable)
+data/index/
+
+# MLflow local tracking store
+mlruns/
+mlartifacts/
+mlflow.db
+
+# The downloaded labels are ~50 MB; re-create them with `python -m drug_rag download --n 1200`.
+data/labels.jsonl
+
+# Keep data/testset.jsonl, the review CSV and results/ committed: they make the results reproducible.

@@ -1,0 +1,10 @@
+# Minimal set for the Docker image (API only: no Gradio, MLflow or test tools)
+fastembed>=0.5
+faiss-cpu>=1.8
+rank_bm25>=0.2.2
+numpy>=1.26
+langchain-text-splitters>=0.3
+openai>=1.40
+anthropic>=0.34
+fastapi>=0.110
+uvicorn>=0.29
